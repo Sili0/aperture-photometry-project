@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Projet Astro.aux
+The style file: sty/LivRevSolar.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: aaaa-projet_HAP703P_M1CCP_Nom1_Nom2.bib
+Warning-- !!! K E Y W O R D S missing in Chandra61
+You can't pop an empty literal stack for entry Chandra61
+while executing---line 2308 of file sty/LivRevSolar.bst
+Warning-- !!! K E Y W O R D S missing in Zeeman1897
+You can't pop an empty literal stack for entry Zeeman1897
+while executing---line 2308 of file sty/LivRevSolar.bst
+You've used 2 entries,
+            3675 wiz_defined-function locations,
+            1250 strings with 11308 characters,
+and the built_in function-call counts, 970 in all, are:
+= -- 81
+> -- 14
+< -- 2
++ -- 9
+- -- 4
+* -- 64
+:= -- 111
+add.period$ -- 3
+call.type$ -- 2
+change.case$ -- 6
+chr.to.int$ -- 2
+cite$ -- 8
+duplicate$ -- 99
+empty$ -- 99
+format.name$ -- 6
+if$ -- 200
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 12
+newline$ -- 15
+num.names$ -- 6
+pop$ -- 38
+preamble$ -- 1
+purify$ -- 6
+quote$ -- 0
+skip$ -- 50
+stack$ -- 0
+substring$ -- 24
+swap$ -- 55
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 10
+warning$ -- 2
+while$ -- 6
+width$ -- 0
+write$ -- 33
+(There were 2 error messages)

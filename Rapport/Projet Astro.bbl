@@ -1,0 +1,15 @@
+\begin{thebibliography}{2}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+\catcode`\% 12
+
+\bibitem[{Chandrasekhar}(1961)]{Chandra61}
+{Chandrasekhar}, S., 1961, {\it {Hydrodynamic and hydromagnetic stability}\/},  International Series of Monographs on Physics, Oxford: Clarendon, 1961
+
+\bibitem[{Zeeman}(1897)]{Zeeman1897}
+{Zeeman}, P., 1897, ``{On the Influence of Magnetism on the Nature of the Light Emitted by a Substance.}'', {\it \apj\/}, {\bf 5}, 332. {\small[\href{http://dx.doi.org/10.1086/140355}{DOI}]},  {\small[\href{http://adsabs.harvard.edu/abs/1897ApJ.....5..332Z}{ADS}]}
+
+\end{thebibliography}
