@@ -1,0 +1,35 @@
+\section{Contexte et objectifs de l'étude}
+%
+\subsection{Contexte astrophysique}
+
+\vspace{3mm}
+
+% Brève description de l'utilité des observations astrophysique en physique stellaire, en particulier la photométrie ou la spectroscopie selon le projet choisi.
+% Exemples de références au livre de \cite{Chandra61} et à l'article \cite{Zeeman1897}.
+Notre projet porte sur la photométrie d'ouverture. Cela consiste en l'étude et la détection de sources stellaires et à la mesure des magnitudes de celles-ci.
+La magnitude d'une étoile est défini par la luminosité logarithmique de celle-ci, il s'agit d'une mesure de la sensibilité de notre œil 
+à la luminosité apparente. On appelle donc cette quantité la magnitude apparente. De part la définition de la magnitude apparente, celle-ci est opposé à la luminosité.
+
+\vspace{3mm}
+
+La photométrie d'ouverture permet de faire un premier traitement de l'image pour indiquer si ce qu'on observe sur la photo est une étoile ou bien du bruit,
+causé par le "fond de ciel". Le fond de ciel est le niveau de luminosité reçu qui ne provient pas des étoiles. Il peut s'agir de la diffusion dans l'atmoshpère de la lumière,
+ou encore de la pollution lumineuse, ou autres (?).
+
+
+\subsection{Objectifs de l'étude}
+% Brève description des objectifs de l'étude
+
+\vspace{3mm}
+
+Le principe de notre projet sera alors de corriger ce fond de ciel. Ensuite, de pouvoir détecter les sources et de donner les conditions pour lesquelles, nous allons considérer 
+que se sont des sources utilisable, pour pouvoir faire un premier tri des étoiles. Ce tri va nous permettre d'obtenir précisement la position de nos étoiles sur notre image,
+ce qui permet de donner la position précise de chaque étoile détectée. Avec ces informations, on demandera à Vizier, une librairie de catalogues astrophysique de nous donner 
+les magnitudes de nos étoiles dans un filtre donné.
+
+\vspace{3mm}
+
+On déterminera enfin, qu'elle est la quantité optimale d'étoiles qu'il faut prendre pour calibrer notre magnitude. Ce qui nous permettra de donner la magnitude des autres étoiles 
+dans un filtre donné, à partir de la magnitude instrumental (celle que l'on mesure). Comme nous le verrons, la magnitude instrumental est égale à la magnitude apparente à une facteur près. 
+Ce facteur nous donnera une bonne indication sur la précision de notre photométrie, ce qui nous permettra de conclure.
+

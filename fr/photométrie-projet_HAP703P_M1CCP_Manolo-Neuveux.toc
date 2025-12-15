@@ -1,0 +1,21 @@
+\babel@toc {french}{}\relax 
+\babel@toc {french}{}\relax 
+\babel@toc {french}{}\relax 
+\contentsline {section}{\numberline {1}Contexte et objectifs de l'étude}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Contexte astrophysique}{5}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Objectifs de l'étude}{5}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Description des observations spectroscopiques}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Instrumentation}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Observations}{5}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Objets astrophysiques}{5}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Images de calibration}{5}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Caractérisation de la caméra CCD}{5}{subsubsection.2.2.3}%
+\contentsline {section}{\numberline {3}Calibration des observations photométriques}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Étape 1}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Étape 2}{5}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Mesures photométriques et incertitudes}{5}{section.4}%
+\contentsline {section}{\numberline {5}Conclusion}{5}{section.5}%
+\contentsline {section}{Bibliographie}{6}{section.5}%
+\contentsline {section}{Références web}{6}{section*.3}%
+\contentsline {section}{\numberline {A}Titre de la section 1 d'annexes}{8}{appendix.A}%
+\contentsline {section}{\numberline {B}Titre de la section 2 d'annexes}{8}{appendix.B}%
