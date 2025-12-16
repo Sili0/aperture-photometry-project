@@ -14,11 +14,64 @@
 % * Un journal des observations : combien de spectres, temps de pose, Nb ADU sous forme de description et/ou de tableau
 
 \subsubsection{Images de calibration}
-% Description détaillée des différentes images acquises 
+% Description détaillée des différentes images acquises
 
 \subsubsection{Caractérisation de la caméra CCD}
 % Caracterisation de la caméra CCD : gain (e-/ADU), bruit de lecture (e-), courant d'obscurité % (e-/s/pix)
 % Expliquer comment ces grandeurs sont déterminées et comparer aux données constructeur
 % Expliquer brièvement à quoi correspondent ces grandeurs
-La caractéristation du CCD est importante car elle permet de donner toutes les méta données importantes à nos images. 
-Toutes ces données se trouvent au niveau du Header d'une image. Notre CCD est donc caractériser par les données suivantes :
+
+Une caméra CCD (Charged Coupled Device) est un récepteur multicanal, constitué d'un "pavage" de dépôts métalliques (transparents, aussi nommés pixels récepteurs) dans une certaine plage de longueur d'onde. 
+
+La caractéristation de notre CCD est importante car elle permet d'obtenir toutes les données importantes sur celui-ci. 
+Toutes ces données se trouvent dans la fiche fabricant et certaines données calculées se trouvent dans le Header. Notre CCD, FLI Proline 4240, est donc caractérisé par les données sur la Table \ref{CCD}.
+% gain, bruit de lecture, courant d'obscurité, position du télescope, 
+\begin{table}
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+        \hline
+        Surface de l'image (diagonal) & $27.6 \times 27.6 \ mm$ \\
+        \hline
+        Nombre de pixels & $2048 \times 2048$ \\
+        \hline
+        Capacité maximale & $10^5$ e- \\
+        \hline
+        Taille d'un pixel & $13.5 \times 13.5 \ \mu m$ \\
+        \hline
+        Courant d'obscurité & $0.2$ e-/s à $-30^\circ C$ \\
+        \hline
+        Refroidissement maximal & $60^\circ C$ \\
+        \hline
+        Bruit de lecture & $14.32$ e- \\
+        \hline
+        Gain théorique & $1.35$ e-/ADU \\
+        \hline
+        Gain & $1.339$ e-/ADU \\
+        \hline
+    \end{tabular}
+    \caption{Données de la caméra CCD}
+    \label{CCD}
+\end{table}
+
+La caméra CCD est composée de plusieurs pixels chacun recevant une quantité de photons selon l'image observé.
+Puis, par effet photo-électrique, ces photons sont convertis en electrons. Ce sont les electrons qui vont donc nous permettre d'exploiter le signal.
+
+\vspace{3mm}
+
+Or, lors de l'effet photo-électrique, des photons autres que ceux reçus par notre image peuvent se transformer en electrons.
+Ces photons sont en fait produits par l'agitation thermique et contribuent au bruit de lecture.
+Pour empêcher au maximum cet effet, on refroidit la caméra. Le bruit de lecture donné ici est donc le bruit de lecture à $-25^\circ C$. 
+Le bruit de lecture vient aussi du courant d'obscurité, faible ici dans notre cas (nos images ont des temps de pose de l'ordre de 5s).
+
+\vspace{3mm}
+
+Plus un pixel est petit et plus l'image sera précise. Ici, nous sommes à l'ordre du micromètre.
+Après un temps de pose du CCD, celui-ci accumule des electrons dans chaque pixel (qui est en fait un puits quantique grâce à la tension appliquée).
+Mais, si le nombre d'electrons est trop grand, chaque pixel peut "fuiter" sur d'autres pixels. 
+En d'autres termes, s'il y a trop d'electrons dans un puits quantique, certains electrons vont réussir à s'échapper pour passer au suivant.
+La caractéristique de la capacité maximale, nous renseigne le nombre d'electrons où nous pouvons commencer à percevoir des fuites.
+
+\vspace{3mm}
+
+Le gain du CCD nous permet de mesurer l'effet de l'amplificateur sur le signal mesuré en electrons. Il convertit donc ce qu'on reçoit (les electrons) en ADU. 
+Lors de la prise d'une image, le CCD calcul son gain, qui est légèrement inférieur au gain théorique.

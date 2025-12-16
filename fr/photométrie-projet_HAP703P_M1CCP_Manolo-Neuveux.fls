@@ -464,6 +464,7 @@ INPUT ./2-observations.tex
 INPUT ./2-observations.tex
 INPUT ./2-observations.tex
 INPUT 2-observations.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futrc8t.tfm
 INPUT ./3-calibrations_mesures.tex
 INPUT ./3-calibrations_mesures.tex
 INPUT ./3-calibrations_mesures.tex
@@ -474,6 +475,22 @@ INPUT ./4-ccl.tex
 INPUT ./4-ccl.tex
 INPUT ./4-ccl.tex
 INPUT 4-ccl.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futmii.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-mlit.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-ml.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futri8r.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futsy.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-ms.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-mcl.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futr8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futr8r.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-alt.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futsy.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-ms.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-mcl.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futrc8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futr8r.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-alt.tfm
 INPUT ./photométrie-projet_HAP703P_M1CCP_Manolo-Neuveux.bbl
 INPUT ./photométrie-projet_HAP703P_M1CCP_Manolo-Neuveux.bbl
 INPUT photométrie-projet_HAP703P_M1CCP_Manolo-Neuveux.bbl
@@ -483,7 +500,6 @@ INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
 INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmtt10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futri8t.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futri8r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-alt-ita.tfm
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc
 INPUT ./photométrie-projet_HAP703P_M1CCP_Manolo-Neuveux.lof
@@ -513,6 +529,8 @@ INPUT ./photométrie-projet_HAP703P_M1CCP_Manolo-Neuveux.out
 INPUT ./photométrie-projet_HAP703P_M1CCP_Manolo-Neuveux.out
 INPUT ./photométrie-projet_HAP703P_M1CCP_Manolo-Neuveux.hd
 INPUT ./photométrie-projet_HAP703P_M1CCP_Manolo-Neuveux.hd
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb
