@@ -1,4 +1,4 @@
-\section{Description des observations spectroscopiques}
+\section{Description des observations photométriques}
 %
 
 \subsection{Instrumentation}
@@ -11,7 +11,18 @@
 %  * une carte de champ large en indiquant l'étoile observée sur les cartes téléchargées à https://www.iau.org/public/themes/constellations/
 %  * une carte de champ resserrée produite avec Aladin ou pyastroplan et couvrant un champ de 2°x2°
 %  * un bref commentaire sur l'utilité de ces graphiques
-% * Un journal des observations : combien de spectres, temps de pose, Nb ADU sous forme de description et/ou de tableau
+% * Un journal des observations : temps de pose, Nb ADU sous forme de description et/ou de tableau
+
+Pour ce projet, nous avons observé l'amas ouvert d'étoiles M39 (M pour Messier, le nom de son découvreur), situé dans la constallation du Cygne. 
+Pour connaître la meilleure période pendant laquelle observer M39, il est nécessaire de connaître sa position dans le ciel en fonction du temps, ou plus exactement, connaître son altitude en fonction du temps.
+Pour cela, abracabra :
+
+\begin{figure}
+        \centering
+        \includegraphics[width=0.5\linewidth]{M39_verylarge.png}
+        \caption{Enter Caption}
+        \label{fig:placeholder}
+    \end{figure}
 
 \subsubsection{Images de calibration}
 % Description détaillée des différentes images acquises
@@ -21,7 +32,7 @@
 % Expliquer comment ces grandeurs sont déterminées et comparer aux données constructeur
 % Expliquer brièvement à quoi correspondent ces grandeurs
 
-Une caméra CCD (Charged Coupled Device) est un récepteur multicanal, constitué d'un "pavage" de dépôts métalliques (transparents, aussi nommés pixels récepteurs) dans une certaine plage de longueur d'onde. 
+Une caméra CCD (Charged Coupled Device) est un récepteur multicanal, constitué d'un "pavage" d'électrodes (ou pixels récepteurs) dans une certaine plage de longueur d'onde. 
 
 La caractéristation de notre CCD est importante car elle permet d'obtenir toutes les données importantes sur celui-ci. 
 Toutes ces données se trouvent dans la fiche fabricant et certaines données calculées se trouvent dans le Header. Notre CCD, FLI Proline 4240, est donc caractérisé par les données sur la Table \ref{CCD}.
@@ -74,4 +85,4 @@ La caractéristique de la capacité maximale, nous renseigne le nombre d'electro
 \vspace{3mm}
 
 Le gain du CCD nous permet de mesurer l'effet de l'amplificateur sur le signal mesuré en electrons. Il convertit donc ce qu'on reçoit (les electrons) en ADU. 
-Lors de la prise d'une image, le CCD calcul son gain, qui est légèrement inférieur au gain théorique.
+Lors de la prise d'une image, le CCD calcul le gain réel, nous prendrons donc cette valeur dans la suite de nos mesures

@@ -9,7 +9,7 @@
 # Date   : 18/01/2017 
 #######
 
-FILE=aaaa-projet_HAP703P_M1CCP_Nom1_Nom2
+FILE=2025-projet_HAP703P_M1CCP_Cordelier_Neuveux
 
 all: $(FILE).pdf
 

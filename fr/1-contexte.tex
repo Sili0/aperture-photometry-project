@@ -7,7 +7,7 @@
 % Brève description de l'utilité des observations astrophysique en physique stellaire, en particulier la photométrie ou la spectroscopie selon le projet choisi.
 % Exemples de références au livre de \cite{Chandra61} et à l'article \cite{Zeeman1897}.
 Notre projet porte sur la photométrie d'ouverture. Cela consiste en l'étude et la détection de sources stellaires et à la mesure des magnitudes de celles-ci.
-La magnitude d'une étoile est défini par la luminosité logarithmique de celle-ci, il s'agit d'une mesure de la sensibilité de notre œil 
+La magnitude d'une étoile est défini par le flux logarithmique de celle-ci, il s'agit d'une mesure de la sensibilité de notre œil 
 à la luminosité apparente. On appelle donc cette quantité la magnitude apparente. De part la définition de la magnitude apparente, celle-ci est opposé à la luminosité.
 
 \vspace{3mm}
@@ -29,7 +29,34 @@ les magnitudes de nos étoiles dans un filtre donné.
 
 \vspace{3mm}
 
-On déterminera enfin, qu'elle est la quantité optimale d'étoiles qu'il faut prendre pour calibrer notre magnitude. Ce qui nous permettra de donner la magnitude des autres étoiles 
-dans un filtre donné, à partir de la magnitude instrumental (celle que l'on mesure). Comme nous le verrons, la magnitude instrumental est égale à la magnitude apparente à une facteur près. 
-Ce facteur nous donnera une bonne indication sur la précision de notre photométrie, ce qui nous permettra de conclure.
+On déterminera enfin, qu'elle est la quantité optimale d'étoiles qu'il faut prendre pour calibrer notre magnitude.
+En connaissant la magnitude apparente de quelques étoiles et la magnitude instrumental (ce qui nous permettra de donner la magnitude des autres étoiles 
+dans un filtre donné), on pourra donner un critère sur la précision de la photométrie, ce qui nous permettra de conclure.
 
+\subsection{Discussions sur la magnitude}
+
+Comme indiqué précedemment, l'œil humain n'a pas une sensibilité linéaire aux changements de flux lumineux. C'est pour cette raison que les astrophysiciens parlent de magnitude et non de flux.
+
+\begin{equation}
+    m_A = F_{0, A} -2.5 \log(F_A)
+\end{equation}
+où $F_{0, A}$ est un flux de référence.
+
+A représente le filtre donné. Effectivement, dans une plage de longueur d'onde donné, le flux d'une étoile n'est pas le même. Il faut donc définir dans quelle plage de longueur d'onde on se trouve.
+Ce que nos capteurs mesurent est le flux de photons reçus. On s'aperçoit alors que le flux de photons est proportionnel au flux lumineux : 
+\begin{equation}
+    F_A \propto n_A - n_{0, A}
+\end{equation}
+Où $n_A$ est la quantité de photons reçus et $n_{0, A}$ la quantité de photons reçus du fond de ciel. 
+Supprimer $n_{0, A}$ nous permet de corriger le fond de ciel, nous pouvons alors définir la magnitude instrumentale (et apparente) comme :
+\begin{equation}
+    m_{inst, A} = B -2.5 \log(n_A - n_{0, A})
+\end{equation}
+Où B est une constante à déterminer (et où $F_{0, A}$ y est contenu).
+
+Nous avons donc accès aux magnitudes instrumentales et aux magnitudes de référence de quelques étoiles. On peut calculer alors B (on utilisera aussi le terme "zéro") par :
+\begin{equation}
+    B = m_{inst, A} - m_A
+\end{equation}
+
+La connaissance de ce B va nous permettre de calculer les magnitudes des autres étoiles.
