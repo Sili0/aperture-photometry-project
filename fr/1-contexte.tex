@@ -12,9 +12,8 @@ La magnitude d'une étoile est défini par le flux logarithmique de celle-ci, il
 
 \vspace{3mm}
 
-La photométrie d'ouverture permet de faire un premier traitement de l'image pour indiquer si ce qu'on observe sur la photo est une étoile ou bien du bruit,
-causé par le "fond de ciel". Le fond de ciel est le niveau de luminosité reçu qui ne provient pas des étoiles. Il peut s'agir de la diffusion dans l'atmoshpère de la lumière,
-ou encore de la pollution lumineuse, ou autres (?).
+La photométrie d'ouverture permet de faire un premier traitement de l'image pour indiquer si ce qu'on observe est une étoile ou bien du bruit,
+causé par le "fond de ciel". Le fond de ciel est le niveau de luminosité reçu qui ne provient pas des étoiles. Il peut s'agir de la diffusion dans l'atmoshpère de la lumière, de la pollution lumineuse et bien d'autres encore. (citer le saint livre)
 
 
 \subsection{Objectifs de l'étude}
@@ -22,9 +21,9 @@ ou encore de la pollution lumineuse, ou autres (?).
 
 \vspace{3mm}
 
-Le principe de notre projet sera alors de corriger ce fond de ciel. Ensuite, de pouvoir détecter les sources et de donner les conditions pour lesquelles, nous allons considérer 
+Le principe de notre projet sera alors de corriger ce fond de ciel. Ensuite, de pouvoir détecter les sources et d'indiquer les conditions pour lesquelles, nous allons considérer 
 que se sont des sources utilisable, pour pouvoir faire un premier tri des étoiles. Ce tri va nous permettre d'obtenir précisement la position de nos étoiles sur notre image,
-ce qui permet de donner la position précise de chaque étoile détectée. Avec ces informations, on demandera à Vizier, une librairie de catalogues astrophysique de nous donner 
+ce qui permet de donner la position précise de chaque étoile détectée. Avec ces informations, on demandera à Vizier, une librairie de catalogues astrophysique, de nous donner 
 les magnitudes de nos étoiles dans un filtre donné.
 
 \vspace{3mm}
@@ -42,13 +41,13 @@ Comme indiqué précedemment, l'œil humain n'a pas une sensibilité linéaire a
 \end{equation}
 où $F_{0, A}$ est un flux de référence.
 
-A représente le filtre donné. Effectivement, dans une plage de longueur d'onde donné, le flux d'une étoile n'est pas le même. Il faut donc définir dans quelle plage de longueur d'onde on se trouve.
+A représente le filtre donné. Effectivement, dans une plage de longueur d'onde donnée, le flux d'une étoile n'est pas le même. Il faut donc définir dans quelle plage de longueur d'onde on se trouve.
 Ce que nos capteurs mesurent est le flux de photons reçus. On s'aperçoit alors que le flux de photons est proportionnel au flux lumineux : 
 \begin{equation}
     F_A \propto n_A - n_{0, A}
 \end{equation}
 Où $n_A$ est la quantité de photons reçus et $n_{0, A}$ la quantité de photons reçus du fond de ciel. 
-Supprimer $n_{0, A}$ nous permet de corriger le fond de ciel, nous pouvons alors définir la magnitude instrumentale (et apparente) comme :
+Supprimer $n_{0, A}$ de $n_A$, nous permet de corriger le fond de ciel, nous pouvons alors définir la magnitude instrumentale (et apparente) comme :
 \begin{equation}
     m_{inst, A} = B -2.5 \log(n_A - n_{0, A})
 \end{equation}
