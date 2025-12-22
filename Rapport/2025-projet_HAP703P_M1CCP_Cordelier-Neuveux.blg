@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: 2025-projet_HAP703P_M1CCP_Cordelier-Neuveux.aux
+The style file: sty/LivRevSolar.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: 2025-projet_HAP703P_M1CCP_Cordelier-Neuveux.bib
+You've used 1 entry,
+            3675 wiz_defined-function locations,
+            1241 strings with 11102 characters,
+and the built_in function-call counts, 400 in all, are:
+= -- 17
+> -- 7
+< -- 2
++ -- 3
+- -- 2
+* -- 28
+:= -- 50
+add.period$ -- 0
+call.type$ -- 1
+change.case$ -- 3
+chr.to.int$ -- 1
+cite$ -- 3
+duplicate$ -- 39
+empty$ -- 50
+format.name$ -- 3
+if$ -- 80
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 8
+newline$ -- 12
+num.names$ -- 3
+pop$ -- 20
+preamble$ -- 1
+purify$ -- 3
+quote$ -- 0
+skip$ -- 15
+stack$ -- 0
+substring$ -- 3
+swap$ -- 18
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 4
+warning$ -- 0
+while$ -- 2
+width$ -- 0
+write$ -- 19

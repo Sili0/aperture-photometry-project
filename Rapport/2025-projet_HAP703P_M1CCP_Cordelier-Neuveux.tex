@@ -1,0 +1,86 @@
+\documentclass[a4paper,11pt]{sty/rapportEtudFdS}
+% language settings
+% \frenchbsetup{StandardLists=true} % Compatibilité francais/enumitem
+\selectlanguage{french}
+% 
+\hypersetup{%
+	    colorlinks=False, breaklinks,
+	    linkbordercolor=YellowGreen,
+	    urlbordercolor=MidnightBlue,
+            unicode=true,
+            %%% A EDITER %%%
+            pdfauthor={Silio-Manolo Cordelier, Lorys Neuveux},%
+            pdftitle={HAP703P -- Mesures et Calibration des Magnitudes des Étoiles de M39},
+            %%%%%%%%%%%%%%%%
+            pdfcreator={\LaTeXe},%
+            pdfkeywords={%
+	      Université de Montpellier,%
+	      Master CCP,%
+	      HAP703P,%
+	      Atelier Astrophysique Observationnelle 1
+	      }}
+% 
+\geometry{%
+          a4paper,
+          vmargin=2.5cm,
+          hmargin=2cm}
+%
+
+%%%%%%%%%%%%%%%%
+% definition master/parcours
+\munaccptrue
+%%% A EDITER %%%
+\title{Photométrie d'Ouverture}
+\author{Silio-Manolo \textsc{Cordelier} \quad Lorys \textsc{Neuveux}}
+\date{12 Décembre 2025}
+%%%%%%%%%%%%%%%%
+
+\begin{document}
+\maketitle
+\tableofcontents
+\cleardoublepage
+
+\input{1-contexte}
+\input{2-observations}
+\input{3-calibrations_mesures}
+\input{4-ccl}
+
+%%% Bibliographie %%%
+\newpage
+\addcontentsline{toc}{section}{Bibliographie}
+\bibliographystyle{sty/LivRevSolar}
+\bibliography{2025-projet_HAP703P_M1CCP_Cordelier-Neuveux}
+
+\section*{Références web}
+%%% Limiter au maximum cette section, préférer les références bibliographiques plus classiques
+%%% Dans le cas où wikipedia ou une autre source de vulgarisation est utilisée, citer la publication
+%%% scientifique d'origine
+\addcontentsline{toc}{section}{Références web}
+\begin{enumerate}
+  \item SDSS Data Release, \url{https://classic.sdss.org/dr7/}
+  \item Données du CCD, \url{https://www.flicamera.com/models/pl23042}
+\end{enumerate}
+
+%%% Listes des figures et des tableaux %%%
+% Ces listes sont peuplées automatiquement lorsque les environnement \begin{figure} et \begin{table}
+% sont utilisés, respectivement
+\newpage
+\listoffigures
+\listoftables
+
+%%% Annexes %%%
+\newpage
+\appendix
+\input{a1-annexe1}
+
+%%% Résumés fr/en en 4e de couverture %%%
+\cleardoublepage
+\hbox{}
+\vfill
+\thispagestyle{empty}
+\input{5-resumes}
+\vfill
+\vskip3.cm
+\hrulefill
+
+\end{document}          

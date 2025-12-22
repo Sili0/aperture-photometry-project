@@ -1,0 +1,28 @@
+\babel@toc {french}{}\relax 
+\babel@toc {french}{}\relax 
+\babel@toc {french}{}\relax 
+\contentsline {section}{\numberline {1}Contexte et objectifs de l'étude}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Contexte astrophysique}{5}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Objectifs de l'étude}{5}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Discussions sur la magnitude}{5}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Description des observations photométriques}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Instrumentation}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Observations}{6}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Objets astrophysiques}{6}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Images de calibration}{6}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Caractérisation de la caméra CCD}{6}{subsubsection.2.2.3}%
+\contentsline {section}{\numberline {3}Calibration des observations photométriques}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Critères de détections}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Méthodes d'annulation du fond de ciel}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Rayon d'ouverture optimal}{9}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Notion de rapport signal/bruit}{9}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Critère RSB sur chaque étoile}{9}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Critère du RSB le plus faible}{10}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Méthode d'optimisation Flux-RSB}{10}{subsubsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.4}Impact de chaque méthodes sur la calibration}{11}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Calibration finale}{12}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Mesures photométriques et incertitudes}{13}{section.4}%
+\contentsline {section}{\numberline {5}Conclusion}{13}{section.5}%
+\contentsline {section}{Bibliographie}{14}{section.5}%
+\contentsline {section}{Références web}{14}{section*.12}%
+\contentsline {section}{\numberline {A}Annexe calibration photométrique}{16}{appendix.A}%
