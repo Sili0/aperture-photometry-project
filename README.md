@@ -1,4 +1,5 @@
 # Aperture Photometry
+[![License](https://www.gnu.org/graphics/agplv3-88x31.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#license-text)
 Aperture photometry project in astrophysics classes (M1 Astro-CCP). We worked on data obtained with the Iris telescope at the OHP. Everything is wrote in french.
 
 ## Data
