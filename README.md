@@ -14,4 +14,4 @@ We worked with Jupiter Notebooks for all the coding sections, the detailled, com
 
 ## Final Photometry mesures after calibration in both filters
 
-<img width="400" height="400" alt="Capture d’écran 2025-12-24 à 15 02 54" src="https://github.com/user-attachments/assets/7f599c26-3775-4a20-8e9a-b4e5933c8835" /> <img width="400" height="400" alt="Capture d’écran 2025-12-24 à 15 02 54" src="https://github.com/user-attachments/assets/cf12838d-acca-4495-9260-e358d4139434" />
+<img width="400" height="400" alt="Capture d’écran 2025-12-24 à 15 02 54" src="https://github.com/user-attachments/assets/674eff55-6053-416e-b160-96b649bbe10c" /> <img width="400" height="400" alt="Capture d’écran 2025-12-24 à 15 02 54" src="https://github.com/user-attachments/assets/544d0a52-3ea3-4eaa-b192-d8564d43f5c7" />
