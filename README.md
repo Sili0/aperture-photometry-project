@@ -11,3 +11,7 @@ The graphes were obtained by exporting to ASCII files the data from the notebook
 
 ## Notebook
 We worked with Jupiter Notebooks for all the coding sections, the detailled, commented notebook is also available. The data must be in the same tree as in the repository for the notebook to work properly. Adapt the "path" sections to your Jupiter configuration.
+
+## Final Photometry mesures after calibration in both filters
+
+![Graphe9](https://github.com/user-attachments/assets/7f599c26-3775-4a20-8e9a-b4e5933c8835) ![Graphe8](https://github.com/user-attachments/assets/cf12838d-acca-4495-9260-e358d4139434)
